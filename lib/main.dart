@@ -54,6 +54,7 @@ class MainPage extends StatelessWidget {
             left: -getBiglDiameter(context) / 4,
             top: -getBiglDiameter(context) / 4,
             child: Container(
+              // ignore: sort_child_properties_last
               child: const Center(
                 child: Text(
                   "dribblee",
@@ -145,6 +146,7 @@ class MainPage extends StatelessWidget {
                         width: MediaQuery.of(context).size.width * 0.5,
                         height: 40,
                         child: Container(
+                          // ignore: sort_child_properties_last
                           child: Material(
                             borderRadius: BorderRadius.circular(20),
                             color: Colors.transparent,
