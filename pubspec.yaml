@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   animated_splash_screen:
   webview_flutter:
+  permission_handler:
 
 dev_dependencies:
   flutter_test:
