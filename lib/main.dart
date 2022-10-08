@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: WebView(
-            initialUrl: 'https://www.tutorialkart.com/',
+            initialUrl: 'https://emaster2022.000webhostapp.com/index_test.html',
             javascriptMode: JavascriptMode.unrestricted,
             onWebViewCreated: (WebViewController webViewController) {
               _controller = webViewController;
